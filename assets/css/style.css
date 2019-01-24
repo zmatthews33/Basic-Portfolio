@@ -1,0 +1,39 @@
+nav {
+width: auto;
+background: white;
+margin-bottom: 5px;
+width: 500px;
+overflow: auto;
+}
+
+li {
+        color: #777777;
+        display: inline;
+        font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        padding-right: 18px;
+}
+body {
+
+}
+
+h1 {
+    background: darkblue;
+    color: whitesmoke;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    position: sticky;
+    background: darkblue;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo
+.navbar
+.container
