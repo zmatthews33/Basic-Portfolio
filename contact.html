@@ -5,25 +5,38 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-        <header>
-                <section id="logo">
-                    <h1>Zach Matthews</h1>
-                </section>
+        <section class="container-head">
+                <header>Zach Matthews</header>
+           
                 <nav>
-                    <ul class="navbar">
-                        <li><a href="index.html">About</a></li>
-                        <li>|</li>
+                    <ul>
+                        <li><a href="index.html">About</a></li> 
+                        
                         <li><a href="portfolio.html">Portfolio</a></li>
-                        <li>|</li>
+                                    
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </header>
-<div>
-    <h2>Contact</h2>
-</div>
+            </section>
+           
+           
+<div class="main-container">
+    <section id="contact-form">
+        <h2>Contact</h2>
+            <form id="contact" action="login.php" method="post">    
+                <label for="name">Name</label><br>
+                <input id="name" type="text" autocomplete="username" placeholder="Jane Doe" required><br>
+                <label for="email">Email</label><br>
+                <input id="email" type="email" name="email" autocomplete="email"
+                placeholder="example@gmail.com" required><br>
+                <label for="textfield">Message</label><br>
+                <textarea id="textfield" rows="7"></textarea><br>
+                <button class="button" type="submit" name="submit">Submit</button>
+            </form>
+    </section>
 
 </body>
 <footer>&#169; 2019 Zach Matthews. All Rights Reserved</footer>
+
 </body>
 </html>
